@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 222, 201);
+}
+
+.cabecalho{
+    border: 7px solid;
+    border-style: outset;
+    border-color: rgb(141, 123, 104);
+    background-color: rgb(164, 144, 124);
+}
+
+.cabecalho_menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cabecalho_menu_links{
+    color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.perfil{
+    text-align: center;
+}
+
+#imagem{
+    margin: 2% 0% 1% 0%;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+}

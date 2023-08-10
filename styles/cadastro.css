@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #342a1e;
+}
+
+body{
+    background-image: url('../assets/fundo-livro.jpg');
+    background-size: cover;
+}
+
+input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #736351;
+}
+
+#container-principal{
+    background-color: #f1dec9c2;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#register-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.caixa-pergunta{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.caixa-pergunta input{
+    width: 90%;
+}
+
+label, input{
+    display: block;
+    width: 95%;
+    text-align: left;
+    background-color: #ffffff00;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid #A4907C;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #736351;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #A4907C;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #736351;
+    transition: .9s;
+}
+
+#confirmacap{
+    margin-right: 5px;
+}
+
+#confirmacao, #termosuso{
+    margin: 1%;
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation{
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="container-principal">
+        <h1>Cadastre-se para acessar o sistema</h1>
+        <form id="register-form" action="">
+            
+            <div class="caixa-pergunta">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" data-required data-only-letters>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" data-required data-only-letters>
+            </div>
+            <div class="box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-required data-email-validate>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua" placeholder="Digite qual a sua rua" data-required>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="numero" placeholder="Digite o número da sua casa" data-required>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a sua cidade" data-required>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Digite seu qual o seu estado" data-required>
+            </div>
+                <div class="caixa-pergunta">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" data-required data-password-validate>
+            </div>
+            <div class="caixa-pergunta">
+                <label for="confirmacaosenha">Confirmação de senha</label>
+                <input type="password" name="confirmacaosenha" id="confirmacaosenha" placeholder="Digite novamente sua senha" data-required data-equal>
+            </div>
+            <div class="box">
+                <input type="checkbox" name="confirmacao" id="confirmacao" data-required>
+                <label for="confirmacao" id="termosuso">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="caixa-pergunta">
+                <input type="submit" id="btn-submit" value="Registrar" href="home.html" onclick="cadastrar()">
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

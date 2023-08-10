@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #342a1e;
+}
+
+body{
+    background-image: url('/assets/fundo-livro.jpg');
+    background-size: cover;
+}
+
+input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #736351;
+}
+
+#container-login{
+    background-color: #f1dec9c2;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 25vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+label, input{
+    width: 100%;
+    display: block;
+    text-align: left;
+    background-color: #ffffff00;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid #A4907C;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #736351;
+}
+
+#senha-esquecida{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    background-color: #A4907C;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #736351;
+    transition: .9s;
+}
+
+#redes-sociais, #redes-sociais p{
+    margin-bottom: 10px;
+}
+
+#redes-sociais i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 0 5px;
+    font-size: 23px;
+}
+
+.fa-google{
+    color: rgb(45, 93, 251);
+    background-color: #fff;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+}
+
+.fa-facebook-f{
+    background-color: #3b5998;
+    color: #fff;
+}

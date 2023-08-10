@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_links" href="home.html">Home</a>
+            <a class="cabecalho_menu_links" href="avaliador.html">Livros</a>
+            <a class="cabecalho_menu_links" href="perfil.html">Perfil</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Bem-vindo ao Books Club!</h1>
+        <p>No nosso site você tem acesso as informaçõesdo livro, ler a opinião de outras pessoas que leram esse livro e dar sua opinião sobre o livro se ja tiver lido. Venha conferir os livros e dar sua opiião sobre os livros!!</p>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <section>
+                    <img src="/assets/ACoragemDeSerImperfeito.jpg" alt="" id="img_livro">
+                </section>
+                <section>
+                    <t class="nome">A coragem de ser imperfeito</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment1"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario1"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/ADoenca-OSofrimento.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome"> A doença, o sofrimento e a morte entram num bar: Uma espécie de manual de escrita humorística</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment2"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario2"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/AGarotaDoLago.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A garota do lago</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment3"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario3"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/APacienteSilenciosa.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A paciente silenciosa</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment4"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario4"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/ARainhaVermelha.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A rainha vermelha</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment5"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario5"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/AssimQueAcaba.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Assim que acaba</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment6"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario6"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/ASutilArteDeLigarOFoda-se.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A sutil arte de ligar o foda-se</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment7"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario7"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/AZonaMorta.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A zona morta</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment8"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario8"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/ComoEuEraAntesDeVocê.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Como eu era antes de você</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment8"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario8"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/CulpaDasEstrelas.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">A culpa é das estrelas</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment9"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario9"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/CuraPelasPalavras.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Cura pelas palavras</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment10"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario10"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/EmBuscaDeMim.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Em busca de mim</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment11"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario11"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/EuTenhoSeriosPoemasMentais.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Eu tenho serios poemas mentais</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment12"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario12"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/HolyCow-UmaFabulaAnimal.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Holy Cow: Uma fabula animal</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment13"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario13"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/IT-ACoisa.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">IT a coisa</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment14"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario14"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/MinhaHistoria.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Minha História</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment15"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario15"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/Neuromancer.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Neuromancer</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment16"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario16"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/OCemiterio.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">O cemiterio</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment17"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario17"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/ONomeDoVento.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">O nome do vento</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment18"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario18"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/OPoderDoHabito.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">O poder do habito</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment19"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario19"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/OQueOSolFazComAsFlores.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">O que o sol faz com as flores</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment20"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario20"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/OSenhorDosAneis.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">O senhor dos aneis</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment21"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario21"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/OsHomensQueNaoAmavamAsMulheres.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Os homens que não amavam as mulheres</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment22"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario22"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/Outsider.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Outsider</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment23"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario23"></c>
+                </section>
+            </div>
+        </section>
+        <section class="areadelivros">
+            <div class="caixadelivro1">
+                <img src="/assets/SegredosDaComediaStand-Up.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Segredos da comedia Stand-Up</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment24"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario24"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/SobreOsOssosDosMortos.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Sobre os ossos dos mortos</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment25"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario25"></c>
+                </section>
+            </div>
+            <div class="caixadelivro1">
+                <img src="/assets/TodaPoesia.jpg" alt="" id="img_livro">
+                <section>
+                    <t class="nome">Toda poesia</t><br>
+                    <g>Comentarios</g><br>
+                    <input type="text" id="input_coment26"><br>
+                    <button onclick="comentar1()">Comentar</button>
+                    <c id="comentario26"></c>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="js/avalia.js"></script>
+</body>
+</html>
